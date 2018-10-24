@@ -1,0 +1,88 @@
+html, body{
+  height: 100%;
+  margin:0;
+  overflow: hidden;
+  display:flex;
+  flex-direction: column;
+  color: #cf98b9;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("../img/adult-art-barren-417040.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.kozepso{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fejlec{
+  display: flex;
+  justify-content: center;
+}
+
+.lablec{
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.fejleclink{
+  margin: 0 .2rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.oriasbetu{
+  font-family: 'Mali';
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.gombocska{
+  background-color: rgba(207, 152, 185, 0.5);
+  padding: 0.62rem;
+  margin: 1rem;
+  border: 0.062rem solid transparent;
+  width: 6.25rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.gombdoboz{
+  text-align: center;
+  margin: 2rem;
+}
+
+.gombocska:hover{
+  border: 0.062rem solid white;
+  transition-duration: 0.5s;
+}
+
+@media (min-width: 768px){
+  .fejlec, .gombocska, .lablec{
+  font-size: 2rem;
+  }
+  .lablec{
+  font-size: 1.7rem;
+  }
+  .gombocska{
+  width: 14rem;
+  }
+  .oriasbetu{
+  font-size: 6rem;
+  }
+  .fejleclink{
+  margin: 0 .3rem;
+  font-size: 1.8rem;
+  }
+}
