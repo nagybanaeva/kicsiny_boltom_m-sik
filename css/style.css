@@ -12,6 +12,10 @@ html, body{
   background-size: cover;
 }
 
+.haziko, .ora, .boritek{
+  height: 100px;
+}
+
 .kozepso{
   flex-grow: 1;
   display: flex;
